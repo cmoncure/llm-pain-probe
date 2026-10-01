@@ -1,0 +1,7 @@
+model = "Qwen/Qwen2.5-7B-Instruct"
+upstream_model_name = "Qwen_2.5_7B_instruct"
+upstream_commit = "4d75cd90e206ea962f7a9101e65c85efea56723b"
+expected_layers = 28
+expected_hidden_dim = 3584
+reference_final_token_layer = 24
+reference_mean_layer = 26
